@@ -1,0 +1,234 @@
+/* NAVBAR BAWAH */
+.sub-navbar {
+  background-color: #fff;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0;
+
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+   top: 56px; 
+}
+
+.sub-navbar a{
+  font-size: 20px;
+}
+.sub-navbar .sub-link {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0 20px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  position: relative;
+  transition: color 0.2s ease;
+}
+.sub-navbar .sub-link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s ease;
+}
+
+.sub-navbar .sub-link:hover {
+  color: #000;
+}
+
+.sub-navbar .sub-link:hover::after {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .sub-navbar {
+    padding: 8px 0;
+  }
+  .sub-navbar .sub-link {
+    margin: 0 12px;
+    font-size: 13px;
+  }
+}
+
+.banner{
+    background: url("COVER3.jpg")no-repeat;
+    background-size:cover;
+    height: 80vh;
+    width: 100%;
+    padding-top:10%;
+    padding-bottom: 30%;
+    color:white;
+}
+ body {
+      font-family: 'Open Sans', sans-serif;
+      text-align: left;
+      background-color: #e6f3ff;
+      padding: 100px;
+      margin: 0;
+      padding: 0;
+    }
+    /* Navbar */
+.navbar input {
+  width: 140px;
+  background-color: #f8f9fa;
+  border-radius: 30px;
+  padding: 5px 15px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.banner h1{
+     font-family: 'Montserrat', sans-serif;
+      font-size: 5rem; 
+      font-weight: 700;
+      color: #003366;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+}
+.banner h6 {
+      font-size: 2rem; 
+      color: #336699;
+      margin-bottom: 20px;
+}
+
+.banner button{
+    border-radius: 60px;
+    border: none;
+    background-color: white;
+    color: #336699 ;
+    outline: none;
+    height: 45px;
+    width: 35%;
+}
+.produk img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px;
+    display: block;
+}
+.produk .col-lg-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.judul {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.brands {
+  display: flex;          
+  justify-content: center; 
+  gap: 20px;            
+}
+
+.brands img {
+  width: 200px;            
+  border-radius: 10px;    
+  transition: transform 0.3s ease; 
+}
+
+.brands img:hover {
+  transform: scale(1.05);
+}
+
+.product-card {
+  width: 250px;              
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  margin: 15px;
+  overflow: hidden;
+}
+
+.product-card img {
+  width: 100%;
+  height: 250px;          
+  object-fit: cover;         
+  .product-card {
+  width: 250px;            
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  margin: 15px;
+  overflow: hidden;
+}
+
+.product-card img {
+  width: 100%;
+  height: 250px;           
+  object-fit: cover;        
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.product-card p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+  margin: 0 auto;
+}
+
+.product-card p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+.product-card {
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.story-card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.story-card {
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+.story-card:hover {
+  transform: scale(1.02);
+}
+.footer {
+  background-color: #003366;
+}
+.footer h5 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.footer p, .footer a {
+  color: #ffffffcc;
+  font-size: 14px;
+}
+.footer a:hover {
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 2.5rem;
+  }
+  .banner h6 {
+    font-size: 1.2rem;
+  }
+  .banner button {
+    width: 60%;
+  }
+}
